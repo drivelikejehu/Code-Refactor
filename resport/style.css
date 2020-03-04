@@ -18,6 +18,11 @@
 
 .grayback {
   background-image: url("images/grayparch.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 900px;
+  background-attachment: relative;
 }
 
 .container {
