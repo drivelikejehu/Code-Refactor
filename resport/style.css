@@ -92,3 +92,19 @@ input[type="password"]:focus {
   line-height: 60px;
   background-color: #302e2e;
 }
+
+@media (min-width: 980px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 640px) {
+  .bg-light {
+    background-color: rgb(49, 170, 165) !important;
+  }
+  .container {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
