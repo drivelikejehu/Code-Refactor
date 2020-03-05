@@ -8,7 +8,7 @@
   font-size: 24px;
   font-weight: bold;
   color: white;
-  padding: 10px;
+  padding: 10px 20px;
   margin-left: 20px;
 }
 
@@ -16,31 +16,68 @@
   background-color: white !important;
 }
 
-/* .grayback {
+.grayback {
   background-image: url("images/grayparch.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 900px;
   background-attachment: relative;
-} */
+}
 
-/* .container {
-  width: 100%;
-  margin-left: 20px;
-  margin-top: 15px;
-} */
+.container {
+  position: absolute;
+  left: 24px;
+  margin: 13px;
+  max-width: 750px;
+  padding: 10px;
+  background-color: white;
+}
 
 row {
   margin-top: 0px;
 }
+
 h1 {
   background-color: white;
   font-family: "Times New Roman", Times, serif;
   font-size: 24px;
   font-weight: bold;
   color: rgb(49, 170, 165);
+  padding: 10px;
+}
+
+.form-group {
+  background-color: white;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
   padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  background-color: none;
+  outline: none;
+}
+
+.btn {
+  background-color: rgb(49, 170, 165);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 
 .footer {
