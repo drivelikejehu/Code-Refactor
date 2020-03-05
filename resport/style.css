@@ -5,11 +5,11 @@
 .navbar-brand {
   background-color: rgb(49, 170, 165);
   font-family: "Times New Roman", Times, serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   color: white;
-  padding: 15px;
-  margin-left: 55px;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 .bg-light {
@@ -27,16 +27,18 @@
 
 .container {
   width: 100%;
-  margin-left: 0px;
+  margin-left: 20px;
+  margin-top: 15px;
 }
 
+row {
+  margin-top: 0px;
+}
 h1 {
   background-color: white;
   font-family: "Times New Roman", Times, serif;
-  font-size: 28px;
+  font-size: 24px;
   font-weight: bold;
   color: rgb(49, 170, 165);
   padding: 15px;
-  margin-left: 55px;
-  margin-top: 15px;
 }
