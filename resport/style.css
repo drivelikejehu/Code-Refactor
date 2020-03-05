@@ -46,6 +46,10 @@ h1 {
   color: rgb(49, 170, 165);
   padding: 10px;
 }
+.img-thumbnail {
+  max-width: 275px;
+  max-height: 200px;
+}
 
 .form-group {
   background-color: white;
